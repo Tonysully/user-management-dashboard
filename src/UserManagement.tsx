@@ -245,7 +245,7 @@ const UserManagement = () => {
           User Management
         </Heading>
       </Box>
-      <Box bg="#F7F9FB" p={6} h="calc(100vh - 140px)" overflowY="auto">
+      <Box bg="#F7F9FB" p={6} pb={10} minH="calc(100vh - 70px)" overflowY="auto">
         <Box bg="white" borderRadius="md" p={6} mb={6} shadow="sm">
           <Flex gap={6}>
             <SummaryCard
